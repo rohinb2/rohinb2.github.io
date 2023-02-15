@@ -1,0 +1,61 @@
+body {background-color: #FAF9F6;}
+
+html * {
+    font-size: 16px;
+    line-height: 1.625; 
+    font-weight: normal;
+    font-family: "Inter var", sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    /* height: 100%; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* overflow: hidden; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0%;
+}
+
+h2 {
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* Social icons */
+.social {
+    text-align: center;
+    margin-top: 5%;
+}
+
+a {
+    color: #696969;
+    text-decoration: none;
+}
+
+.fab {
+    font-size: 25px;
+}
+
+.fas {
+    font-size: 25px;
+}
+
+.social li {
+    display: inline;
+    padding: 7px;
+}
